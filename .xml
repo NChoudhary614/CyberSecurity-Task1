@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -T4 -A -v scanme.nmap.org localhost" profile_name="Intense scan" scanner="nmap" start="1758548049" startstr="Mon Sep 22 19:04:09 2025" version="7.98" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 19:04 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 19:04
+Completed NSE at 19:04, 0.00s elapsed
+Initiating NSE at 19:04
+Completed NSE at 19:04, 0.00s elapsed
+Initiating NSE at 19:04
+Completed NSE at 19:04, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 19:04
+Completed Parallel DNS resolution of 1 host. at 19:04, 0.80s elapsed
+Initiating Ping Scan at 19:04
+Scanning scanme.nmap.org (45.33.32.156) [4 ports]
+Completed Ping Scan at 19:04, 0.05s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 19:04
+Completed Parallel DNS resolution of 1 host. at 19:04, 0.95s elapsed
+Initiating SYN Stealth Scan at 19:04
+Scanning scanme.nmap.org (45.33.32.156) [1000 ports]
+Discovered open port 22/tcp on 45.33.32.156
+Discovered open port 80/tcp on 45.33.32.156
+Discovered open port 31337/tcp on 45.33.32.156
+Discovered open port 9929/tcp on 45.33.32.156
+Completed SYN Stealth Scan at 19:04, 17.36s elapsed (1000 total ports)
+Initiating Service scan at 19:04
+Scanning 4 services on scanme.nmap.org (45.33.32.156)
+Completed Service scan at 19:04, 6.67s elapsed (4 services on 1 host)
+Initiating OS detection (try #1) against scanme.nmap.org (45.33.32.156)
+Retrying OS detection (try #2) against scanme.nmap.org (45.33.32.156)
+Initiating Traceroute at 19:04
+Completed Traceroute at 19:04, 0.09s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 19:04
+Completed Parallel DNS resolution of 2 hosts. at 19:04, 0.50s elapsed
+NSE: Script scanning 45.33.32.156.
+Initiating NSE at 19:04
+Completed NSE at 19:04, 11.03s elapsed
+Initiating NSE at 19:04
+Completed NSE at 19:04, 1.22s elapsed
+Initiating NSE at 19:04
+Completed NSE at 19:04, 0.00s elapsed
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.12s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 992 closed tcp ports (reset)
+PORT      STATE    SERVICE      VERSION
+22/tcp    open     ssh          OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 ac:00:a0:1a:82:ff:cc:55:99:dc:67:2b:34:97:6b:75 (DSA)
+|   2048 20:3d:2d:44:62:2a:b0:5a:9d:b5:b3:05:14:c2:a6:b2 (RSA)
+|   256 96:02:bb:5e:57:54:1c:4e:45:2f:56:4c:4a:24:b2:57 (ECDSA)
+|_  256 33:fa:91:0f:e0:e1:7b:1f:6d:05:a2:b0:f1:54:41:56 (ED25519)
+25/tcp    filtered smtp
+80/tcp    open     http         Apache httpd 2.4.7 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: Go ahead and ScanMe!
+|_http-favicon: Nmap Project
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+9929/tcp  open     nping-echo   Nping echo
+31337/tcp open     tcpwrapped
+OS fingerprint not ideal because: Host distance (23 network hops) is greater than five
+No OS matches for host
+Uptime guess: 14.648 days (since Mon Sep  8 03:32:25 2025)
+Network Distance: 6 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Randomized
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   7.00 ms  jiofiber.local.html (192.168.31.1)
+2   10.00 ms 192.0.0.1
+3   33.00 ms 192.0.0.1
+4   40.00 ms 192.0.0.1
+5   22.00 ms 192.0.0.1
+6   23.00 ms scanme.nmap.org (45.33.32.156)
+
+Initiating SYN Stealth Scan at 19:04
+Scanning localhost (127.0.0.1) [1000 ports]
+Discovered open port 135/tcp on 127.0.0.1
+Discovered open port 445/tcp on 127.0.0.1
+Discovered open port 8089/tcp on 127.0.0.1
+Discovered open port 8000/tcp on 127.0.0.1
+Discovered open port 8194/tcp on 127.0.0.1
+Discovered open port 3001/tcp on 127.0.0.1
+Completed SYN Stealth Scan at 19:04, 0.10s elapsed (1000 total ports)
+Initiating Service scan at 19:04
+Scanning 6 services on localhost (127.0.0.1)
+Completed Service scan at 19:05, 32.32s elapsed (6 services on 1 host)
+Initiating OS detection (try #1) against localhost (127.0.0.1)
+Retrying OS detection (try #2) against localhost (127.0.0.1)
+Retrying OS detection (try #3) against localhost (127.0.0.1)
+Retrying OS detection (try #4) against localhost (127.0.0.1)
+Retrying OS detection (try #5) against localhost (127.0.0.1)
+NSE: Script scanning 127.0.0.1.
+Initiating NSE at 19:05
+Completed NSE at 19:05, 19.18s elapsed
+Initiating NSE at 19:05
+Completed NSE at 19:05, 0.13s elapsed
+Initiating NSE at 19:05
+Completed NSE at 19:05, 0.00s elapsed
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00042s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+3001/tcp open  http          Thin httpd
+| http-robots.txt: 1 disallowed entry 
+|_/
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Unknown favicon MD5: 08FF173EFEC0750DD29AC7F44D972427
+| http-title: Metasploit - Setup and Configuration
+|_Requested resource was http://localhost:3001/users/new
+|_http-server-header: thin
+8000/tcp open  http          Splunkd httpd
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-favicon: Unknown favicon MD5: E60C968E8FF3CC2F4FB869588E83AFC6
+| http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_Requested resource was http://localhost:8000/en-US/account/login?return_to=%2Fen-US%2F
+|_http-server-header: Splunkd
+| http-robots.txt: 1 disallowed entry 
+|_/
+8089/tcp open  ssl/http      Splunkd httpd
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=SplunkServerDefaultCert/organizationName=SplunkUser
+| Issuer: commonName=SplunkCommonCA/organizationName=Splunk/stateOrProvinceName=CA/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-15T10:55:20
+| Not valid after:  2028-09-14T10:55:20
+| MD5:     2fd7 f127 087b 8f8e 6f75 ef86 9932 9edd
+| SHA-1:   d61c b511 572d b2ea 5c43 0957 7401 0dcf caf9 f21e
+|_SHA-256: 12f0 9102 cd5a 910a 9e54 1f0f 758c be10 cff7 951e f63a 0f24 c42c 0390 edee 13a5
+|_http-title: splunkd
+|_http-server-header: Splunkd
+8194/tcp open  ssl/http      Golang net/http server
+|_http-title: Site doesn't have a title (application/json).
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: application/json
+|     Date: Mon, 22 Sep 2025 13:35:23 GMT
+|     Content-Length: 24
+|     {"message":"Not Found"}
+|   GenericLines, Help, LPDString, RTSPRequest, SIPOptions, SSLSessionReq, Socks5: 
+|     HTTP/1.1 400 Bad Request
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|     Request
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: application/json
+|     Date: Mon, 22 Sep 2025 13:35:08 GMT
+|     Content-Length: 24
+|     {"message":"Not Found"}
+|   OfficeScan: 
+|     HTTP/1.1 400 Bad Request: missing required Host header
+|     Content-Type: text/plain; charset=utf-8
+|     Connection: close
+|_    Request: missing required Host header
+| ssl-cert: Subject: commonName=localhost/organizationName=SplunkUser
+| Subject Alternative Name: DNS:localhost, IP Address:127.0.0.1
+| Issuer: commonName=localhost/organizationName=SplunkUser
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-09-21T07:15:53
+| Not valid after:  2028-09-20T07:15:53
+| MD5:     93b5 383a 8e5b bcba 289d 1b41 1202 ba72
+| SHA-1:   0f19 6fde a7fd e3b0 d42f 9c63 1be9 4765 5101 2e6c
+|_SHA-256: 75c6 949d e9b6 75cb 0287 9de1 f836 d03a e1bd c606 b12d 497f 34ec 0936 8a3c 5591
+|_ssl-date: TLS randomness does not represent time
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8194-TCP:V=7.98%T=SSL%I=7%D=9/22%Time=68D1508C%P=i686-pc-windows-wi
+SF:ndows%r(GenericLines,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-
+SF:Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n40
+SF:0\x20Bad\x20Request")%r(GetRequest,8B,"HTTP/1\.0\x20404\x20Not\x20Found
+SF:\r\nContent-Type:\x20application/json\r\nDate:\x20Mon,\x2022\x20Sep\x20
+SF:2025\x2013:35:08\x20GMT\r\nContent-Length:\x2024\r\n\r\n{\"message\":\"
+SF:Not\x20Found\"}\n")%r(HTTPOptions,8B,"HTTP/1\.0\x20404\x20Not\x20Found\
+SF:r\nContent-Type:\x20application/json\r\nDate:\x20Mon,\x2022\x20Sep\x202
+SF:025\x2013:35:08\x20GMT\r\nContent-Length:\x2024\r\n\r\n{\"message\":\"N
+SF:ot\x20Found\"}\n")%r(RTSPRequest,67,"HTTP/1\.1\x20400\x20Bad\x20Request
+SF:\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20clo
+SF:se\r\n\r\n400\x20Bad\x20Request")%r(Help,67,"HTTP/1\.1\x20400\x20Bad\x2
+SF:0Request\r\nContent-Type:\x20text/plain;\x20charset=utf-8\r\nConnection
+SF::\x20close\r\n\r\n400\x20Bad\x20Request")%r(SSLSessionReq,67,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/plain;\x20charset=ut
+SF:f-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Request")%r(FourOhFour
+SF:Request,8B,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20applic
+SF:ation/json\r\nDate:\x20Mon,\x2022\x20Sep\x202025\x2013:35:23\x20GMT\r\n
+SF:Content-Length:\x2024\r\n\r\n{\"message\":\"Not\x20Found\"}\n")%r(LPDSt
+SF:ring,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/pl
+SF:ain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Bad\x20Requ
+SF:est")%r(SIPOptions,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Ty
+SF:pe:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\
+SF:x20Bad\x20Request")%r(Socks5,67,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r
+SF:\n\r\n400\x20Bad\x20Request")%r(OfficeScan,A3,"HTTP/1\.1\x20400\x20Bad\
+SF:x20Request:\x20missing\x20required\x20Host\x20header\r\nContent-Type:\x
+SF:20text/plain;\x20charset=utf-8\r\nConnection:\x20close\r\n\r\n400\x20Ba
+SF:d\x20Request:\x20missing\x20required\x20Host\x20header");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.98%E=4%D=9/22%OT=135%CT=1%CU=30856%PV=Y%DS=0%DC=L%G=Y%TM=68D150
+OS:BD%P=i686-pc-windows-windows)SEQ(SP=102%GCD=1%ISR=105%CI=I%II=I%TS=A)SEQ
+OS:(SP=103%GCD=1%ISR=108%CI=I%II=I%TS=A)SEQ(SP=104%GCD=1%ISR=108%CI=I%II=I%
+OS:TS=A)SEQ(SP=104%GCD=1%ISR=109%CI=I%II=I%TS=A)SEQ(SP=106%GCD=1%ISR=10A%TI
+OS:=I%CI=I%II=I%SS=S%TS=A)OPS(O1=MFFD7NW8ST11%O2=MFFD7NW8ST11%O3=MFFD7NW8NN
+OS:T11%O4=MFFD7NW8ST11%O5=MFFD7NW8ST11%O6=MFFD7ST11)WIN(W1=FFFF%W2=FFFF%W3=
+OS:FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=80%W=FFFF%O=MFFD7NW8NNS%CC=N
+OS:%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%
+OS:F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y
+OS:%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPC
+OS:K=Z%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Uptime guess: 1.264 days (since Sun Sep 21 12:45:32 2025)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2025-09-22T13:35:40
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+Initiating NSE at 19:05
+Completed NSE at 19:05, 0.00s elapsed
+Initiating NSE at 19:05
+Completed NSE at 19:05, 0.00s elapsed
+Initiating NSE at 19:05
+Completed NSE at 19:05, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 2 IP addresses (2 hosts up) scanned in 108.21 seconds
+           Raw packets sent: 2342 (108.278KB) | Rcvd: 3950 (311.902KB)
+</output><host comment=""><status state="up"></status><address addr="45.33.32.156" vendor="" addrtype="ipv4"></address><hostnames><hostname name="scanme.nmap.org" type="user"></hostname><hostname name="scanme.nmap.org" type="PTR"></hostname></hostnames><ports><extraports count="992" state="closed"></extraports><port portid="22" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="44"></state><service conf="10" method="probed" name="ssh" product="OpenSSH" version="6.6.1p1 Ubuntu 2ubuntu2.13" extrainfo="Ubuntu Linux; protocol 2.0"></service></port><port portid="25" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="smtp"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="43"></state><service conf="10" method="probed" name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)"></service></port><port portid="135" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="filtered" reason="no-response" reason_ttl="0"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="9929" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="43"></state><service conf="10" method="probed" name="nping-echo" product="Nping echo"></service></port><port portid="31337" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="43"></state><service conf="8" method="probed" name="tcpwrapped"></service></port></ports><os><portused state="open" proto="tcp" portid="22"></portused><portused state="closed" proto="tcp" portid="1"></portused><portused state="closed" proto="udp" portid="31825"></portused></os><uptime seconds="1265551" lastboot="Mon Sep  8 03:32:25 2025"></uptime><tcpsequence index="261" difficulty="Good luck!" values="D41D7208,DB079674,255CEEEA,8EBE01DE,5FBB2B12,49165864"></tcpsequence><ipidsequence class="Randomized" values="F850,F950,FB50,FE50,351,451"></ipidsequence><tcptssequence class="1000HZ" values="4B6E8B08,4B6E8B7F,4B6E8BD9,4B6E8C43,4B6E8C9B,4B6E8D0B"></tcptssequence><trace proto="tcp" port="80"><hop ttl="1" rtt="7.00" ipaddr="192.168.31.1" host="jiofiber.local.html"></hop><hop ttl="2" rtt="10.00" ipaddr="192.0.0.1" host=""></hop><hop ttl="3" rtt="33.00" ipaddr="192.0.0.1" host=""></hop><hop ttl="4" rtt="40.00" ipaddr="192.0.0.1" host=""></hop><hop ttl="5" rtt="22.00" ipaddr="192.0.0.1" host=""></hop><hop ttl="6" rtt="23.00" ipaddr="45.33.32.156" host="scanme.nmap.org"></hop></trace></host><host comment=""><status state="up"></status><address addr="127.0.0.1" vendor="" addrtype="ipv4"></address><hostnames><hostname name="localhost" type="user"></hostname><hostname name="localhost" type="PTR"></hostname></hostnames><ports><extraports count="994" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="msrpc" product="Microsoft Windows RPC"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="3001" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="http" product="Thin httpd"></service></port><port portid="8000" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="http" product="Splunkd httpd"></service></port><port portid="8089" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="http" product="Splunkd httpd"></service></port><port portid="8194" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="10" method="probed" name="http" product="Golang net/http server"></service></port></ports><os><portused state="open" proto="tcp" portid="135"></portused><portused state="closed" proto="tcp" portid="1"></portused><portused state="closed" proto="udp" portid="30856"></portused><osmatch name="Microsoft Windows 10 1607 - 11 23H2" accuracy="99" line="74791"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="99"></osclass></osmatch><osmatch name="Microsoft Windows 10 1511" accuracy="97" line="74530"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="97"></osclass></osmatch><osmatch name="Windows 11 21H2" accuracy="97" line="75587"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="97"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703" accuracy="96" line="74847"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="96"></osclass></osmatch><osmatch name="Windows Server 2022" accuracy="96" line="82130"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="2022" accuracy="96"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703 or Windows 11 21H2" accuracy="96" line="74943"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="96"></osclass></osmatch><osmatch name="Microsoft Windows 10 1703 - 11 21H2" accuracy="95" line="74920"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="95"></osclass></osmatch><osmatch name="Microsoft Windows 11 21H2" accuracy="95" line="75569"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="11" accuracy="95"></osclass></osmatch><osmatch name="Microsoft Windows 7 or 8.1 R1" accuracy="94" line="82755"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="8.1" accuracy="94"></osclass></osmatch><osmatch name="Microsoft Windows 10 1607" accuracy="94" line="74626"><osclass vendor="Microsoft" osfamily="Windows" type="general purpose" osgen="10" accuracy="94"></osclass></osmatch></os><uptime seconds="109225" lastboot="Sun Sep 21 12:45:32 2025"></uptime><tcpsequence index="262" difficulty="Good luck!" values="E45AE19,CA888FD7,3324593B,162EA059,1384E2A6,B671F723"></tcpsequence><ipidsequence class="Incremental" values="AAB5,AAB7,AAB9,AABB,AABD,AABF"></ipidsequence><tcptssequence class="1000HZ" values="68259CB,6825A2F,6825A93,6825AF9,6825B5E,6825BC4"></tcptssequence></host><runstats><finished time="1758548157" timestr="Mon Sep 22 19:05:57 2025"></finished><hosts up="2" down="0" total="2"></hosts></runstats></nmaprun>
